@@ -126,7 +126,7 @@
   vertical-align: middle;
 }
 
-.item > .checkbox[type="checkbox"] {
+.item > input[type="checkbox"] {
   margin: 0 10px;
 }
 
@@ -162,11 +162,11 @@
   display: none;
 }
 
-.list .item.editMode .task[type=text] {
+.list .item.edit-mode .task[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.list .item.editMode .label {
+.list .item.edit-mode .label {
   display: none;
 }
