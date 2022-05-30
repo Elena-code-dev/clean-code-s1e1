@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more_inf {
+.header .link-info {
   font-family: "fantasy", cursive;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .item,
-.main-header {
+.subtitle {
   list-style: none;
 }
 
@@ -74,7 +74,7 @@
 }
 
 /* Heading */
-.main-header,
+.subtitle,
 .label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -141,13 +141,13 @@
   width: 226px;
 }
 
-.button.delete .item__img {
+.button.button_delete .item__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button.delete .item__img:hover {
+.button.button_delete .item__img:hover {
   transform: rotateZ(0);
 }
 
