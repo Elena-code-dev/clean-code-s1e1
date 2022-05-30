@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .link-info {
+.header .header__link-info {
   font-family: "fantasy", cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 
@@ -137,7 +137,7 @@
   width: 226px;
 }
 
-.item >  .task[type="text"] {
+.item > .task[type="text"] {
   width: 226px;
 }
 
@@ -162,11 +162,11 @@
   display: none;
 }
 
-.list .item.edit-mode .task[type=text] {
+.list .item_edit-mode .task[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.list .item.edit-mode .label {
+.list .item_edit-mode .label {
   display: none;
 }
