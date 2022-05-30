@@ -126,7 +126,7 @@
   vertical-align: middle;
 }
 
-.item > input[type="checkbox"] {
+.item > .checkbox[type="checkbox"] {
   margin: 0 10px;
 }
 
